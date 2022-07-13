@@ -1,0 +1,74 @@
+#bg {
+  width: 800px;
+  height: 500px;
+  background: url("./images/bg.png") no-repeat center;
+  margin: 0 auto;
+  position: relative;
+}
+h1 {
+  margin-bottom: 100px;
+  text-align: center;
+  font: bold 48px/100px "나눔고딕", sans-serif, Arial;
+  background-color: black;
+  color: #fff;
+}
+#top {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font: 18px "나눔고딕", sans-serif, Arial;
+}
+#top > ul > li:nth-child(2) {
+  font-size: 28px;
+  font-weight: bold;
+}
+#top > ul:nth-child(1) {
+  padding: 0;
+}
+#hero {
+  display: block;
+  width: 35px;
+  height: 54px;
+  background: url("./images/hero.png") no-repeat;
+  background-position: -105px 0;
+  position: absolute;
+  top: 44%;
+  right: 300px;
+}
+#ht {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+#ht > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+#ht > ul > li {
+  padding: 10px;
+}
+#ht > ul > li > i {
+  transform: scale(2);
+  color: crimson;
+}
+#btn {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  /* background-color: darkcyan; */
+  border: 1px solid #cacaca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn > p > a {
+  font-size: 22px;
+  color: #555;
+}
